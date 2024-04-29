@@ -1,0 +1,2 @@
+var e=document.querySelector(".tree"),n=document.querySelectorAll("li"),t=!0,r=!1,l=void 0;try{for(var i,a=n[Symbol.iterator]();!(t=(i=a.next()).done);t=!0){var d=i.value;if(!(d.childNodes.length<=1)){var o=document.createElement("span");d.prepend(o),o.append(o.nextSibling)}}}catch(e){r=!0,l=e}finally{try{t||null==a.return||a.return()}finally{if(r)throw l}}e.addEventListener("click",function(e){var n=e.target;n&&"SPAN"===n.tagName&&(n.nextSibling.hidden=!n.nextSibling.hidden)});
+//# sourceMappingURL=index.ee395646.js.map
